@@ -65,7 +65,7 @@
 
 5. Any additional information that you think we should know before running the application
 
-- How to run all unit test:  go test ./... -cover
+- How to run all unit test:  ``go test ./... -cover``
 
 - This API runs MySQL database from localhost, so prepare the database in your localhost first (you can use delos.sql in this folder)
 
