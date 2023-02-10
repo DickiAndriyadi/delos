@@ -15,7 +15,7 @@
 
 4. Addresses of the API, e.g. localhost:8080/v1/farm, localhost:8080/v1/pond
 
-   - Create Farm (``localhost:8080/v1/farms`` - POST)
+- Create Farm (``localhost:8080/v1/farms`` - POST)
 ```json
 {
     "title": "farm 2",
@@ -23,11 +23,11 @@
 }
 ```
 
-   - Get Detail Farm (``localhost:8080/v1/farms/:id`` - GET)
+- Get Detail Farm (``localhost:8080/v1/farms/:id`` - GET)
  
-   - Get List Farm (``localhost:8080/v1/farms`` - GET)
+- Get List Farm (``localhost:8080/v1/farms`` - GET)
    
-   - Update Farm (``localhost:8080/v1/farms/:id`` - PUT)
+- Update Farm (``localhost:8080/v1/farms/:id`` - PUT)
 ```json
 {
     "title": "farm 1",
@@ -35,9 +35,9 @@
 }
 ```
 
-   - Delete Farm (``localhost:8080/v1/farms/:id`` - DELETE)
+- Delete Farm (``localhost:8080/v1/farms/:id`` - DELETE)
    
-   - Create Pond (``localhost:8080/v1/ponds`` - POST)
+- Create Pond (``localhost:8080/v1/ponds`` - POST)
 ```json
 {
     "title": "pond 1",
@@ -46,11 +46,11 @@
 }
 ```
 
-   - Get Detail Pond (``localhost:8080/v1/ponds/:id`` - GET)
+- Get Detail Pond (``localhost:8080/v1/ponds/:id`` - GET)
    
-   - Get List Pond (``localhost:8080/v1/ponds`` - GET)
+- Get List Pond (``localhost:8080/v1/ponds`` - GET)
    
-   - Update Pond (``localhost:8080/v1/ponds/:id`` - PUT)
+- Update Pond (``localhost:8080/v1/ponds/:id`` - PUT)
 ```json
 {
     "title": "pond 2",
@@ -58,9 +58,9 @@
 }
 ```
 
-   - Delete Pond (``localhost:8080/v1/ponds/:id`` - DELETE)
+- Delete Pond (``localhost:8080/v1/ponds/:id`` - DELETE)
    
-   - Counter Each Endpoint (``localhost:8080/counter`` - GET)
+- Counter Each Endpoint (``localhost:8080/counter`` - GET)
 
 
 5. Any additional information that you think we should know before running the application
