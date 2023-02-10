@@ -57,9 +57,9 @@
    - Counter Each Endpoint (``localhost:8080/counter`` - GET)
 
 
-`5. Any additional information that you think we should know before running the application`
+5. Any additional information that you think we should know before running the application
 
-- How to run all unit test:  ``go test ./... -cover``
-- This API runs MySQL database from localhost, so prepare the database in your localhost first (you can use delos.sql in this folder)
-- Please create Farm data first before creating data on Pond, because if it is not created first it will cause an error
-- if you want to use POSTMAN Collection, it's in this folder (Test Delos.postman_collection.json)
+   - How to run all unit test:  ``go test ./... -cover``
+   - This API runs MySQL database from localhost, so prepare the database in your localhost first (you can use delos.sql in this folder)
+   - Please create Farm data first before creating data on Pond, because if it is not created first it will cause an error
+   - if you want to use POSTMAN Collection, it's in this folder (Test Delos.postman_collection.json)
