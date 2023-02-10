@@ -24,7 +24,9 @@
 ```
 
    - Get Detail Farm (``localhost:8080/v1/farms/:id`` - GET)
+ 
    - Get List Farm (``localhost:8080/v1/farms`` - GET)
+   
    - Update Farm (``localhost:8080/v1/farms/:id`` - PUT)
 ```json
 {
@@ -34,6 +36,7 @@
 ```
 
    - Delete Farm (``localhost:8080/v1/farms/:id`` - DELETE)
+   
    - Create Pond (``localhost:8080/v1/ponds`` - POST)
 ```json
 {
@@ -44,7 +47,9 @@
 ```
 
    - Get Detail Pond (``localhost:8080/v1/ponds/:id`` - GET)
+   
    - Get List Pond (``localhost:8080/v1/ponds`` - GET)
+   
    - Update Pond (``localhost:8080/v1/ponds/:id`` - PUT)
 ```json
 {
@@ -54,6 +59,7 @@
 ```
 
    - Delete Pond (``localhost:8080/v1/ponds/:id`` - DELETE)
+   
    - Counter Each Endpoint (``localhost:8080/counter`` - GET)
 
 
