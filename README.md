@@ -1,19 +1,19 @@
 # Instruction
 
-1. How to prepare the environment, e.g. Go version, the virtual environment necessary (Docker/Vagrant), etc.
+`1. How to prepare the environment, e.g. Go version, the virtual environment necessary (Docker/Vagrant), etc.`
 
 - Go Version : go version go1.18 windows/amd64
 - Docker Dekstop Version : docker dekstop 4.8.1
 
-2. How to run the storage system, e.g. docker-compose -f docker-storage.yaml up -d
+`2. How to run the storage system, e.g. docker-compose -f docker-storage.yaml up -d`
 
-- docker-compose up -d (if you want to run it via docker)
+- ``docker-compose up`` -d (if you want to run it via docker)
 
-3. How to run the application, e.g. go run main.go or make run
+`3. How to run the application, e.g. go run main.go or make run`
 
 - go run main.go (if you want to run it in local -> using port 8080)
 
-4. Addresses of the API, e.g. localhost:8080/v1/farm, localhost:8080/v1/pond
+`4. Addresses of the API, e.g. localhost:8080/v1/farm, localhost:8080/v1/pond`
 
 - Create Farm (localhost:8080/v1/farms - POST)
 ```json
@@ -63,12 +63,9 @@
 - Counter Each Endpoint (localhost:8080/counter - GET)
 
 
-5. Any additional information that you think we should know before running the application
+`5. Any additional information that you think we should know before running the application`
 
 - How to run all unit test:  ``go test ./... -cover``
-
 - This API runs MySQL database from localhost, so prepare the database in your localhost first (you can use delos.sql in this folder)
-
 - Please create Farm data first before creating data on Pond, because if it is not created first it will cause an error
-
 - if you want to use POSTMAN Collection, it's in this folder (Test Delos.postman_collection.json)
