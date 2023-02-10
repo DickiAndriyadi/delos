@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  delos:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: delos
+    ports:
+        - "8080:8080"
+    environment:
+      DB_CONNECTION: mysql
+      DB_ADDR: host.docker.internal
+      DB_PORT: 3306
+      DB_USERNAME: root
+      DB_NAME: delos
+      PORT: 8080

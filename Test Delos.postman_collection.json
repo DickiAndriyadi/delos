@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "3c8c5738-54ce-4862-b207-06895a683485",
+		"name": "Test Delos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7308725"
+	},
+	"item": [
+		{
+			"name": "Create Farm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"farm 2\",\r\n    \"description\": \"farm catfish\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/farms",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"farms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Detail Farm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/farms/7",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"farms",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get List Farm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/farms",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"farms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Farm",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"farm 1\",\r\n    \"description\": \"test update\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/farms/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"farms",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Farm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/farms/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"farms",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Pond",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"pond 1\",\r\n    \"farm_id\": 6,\r\n    \"description\": \"pond catfish\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/ponds",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"ponds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Detail Pond",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/ponds/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"ponds",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get List Pond",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/ponds?farm_id=6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"ponds"
+					],
+					"query": [
+						{
+							"key": "farm_id",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Pond",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"pond 2\",\r\n    \"description\": \"test update\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/ponds/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"ponds",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Pond",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/ponds/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"ponds",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Counter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/counter",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"counter"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
